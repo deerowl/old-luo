@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>20200421</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #pic{
+            width: 720px;
+            height: 848px;
+            border: 1px solid #000;
+            margin: 0px auto;
+            overflow: hidden;
+
+        }
+        ul{
+            width: 8000px;
+            height: 848px;
+            background-color: black;
+            animation: move 30s linear infinite normal;
+
+        }
+        ul li{
+            list-style: none;
+            width: 720px;
+            height: 848px;
+            background-color: red;
+            border: 1px solid #000;
+            box-sizing: border-box;
+            float: left;
+        }
+        ul:hover{
+            animation-play-state: paused;
+        }
+
+        ul:hover li{
+            opacity: 0.5;
+        }
+        ul li:hover{
+            opacity: 1;
+        }
+        @keyframes move {
+            from{
+                margin-left: 0;
+            }
+            to{
+                margin-left: -2160px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col" style="background-color:lavender;">
+            <h3>孙鹏</h3><br>
+            <h3>吕慧宇</h3><br>
+            <h3>罗守志</h3><br>
+        </div>
+        <div class="col" id="pic" style="background-color:lavender;">
+                <ul>
+                <li><img src="20200421001.jpg" alt=""></li>
+                <li><img src="20200421004.jpg" alt=""></li>
+                <li><img src="20200421005.jpg" alt=""></li>
+                <li><img src="20200421001.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="col" style="background-color:orange;">最新动态</div>
+    </div>
+</div>
+</body>
+</html>
