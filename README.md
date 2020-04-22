@@ -1,4 +1,14 @@
+<style>
+  div{backgroud="red"; float:left;
+    width:110px;
+    height:90px;
+    margin:5px;}
+</style>
 # Welcome  my web house! &emsp;&emsp;罗守志 
+<div>
+  <h3>break news!</h3>
+  <a href="http://www.xilu.com/20200422/1000010001128663_12.html">九天决定是战还是和</a>
+</div>
 <object height="50" width="100" data="./video/夏鸣 - 享受寂寞.mp3"></object>
 ## 母亲 何亚珍 医生<a href="https://deerowl.github.io/old-luo/htmls/jibing.html">（一些疾病的诊治和药剂）</a>
 ## 父亲 罗继凯 <a href="./htmls/journal.html">曾经</a>
